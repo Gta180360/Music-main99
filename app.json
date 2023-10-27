@@ -1,62 +1,0 @@
-{
-    "name": "⦓ ‌‌‏‌‌‏‌‌‏ 𝘼𝙍𝘼𝘽𝙀𝙍 ⦔",
-    "description": "تنصيب بوتات الاغاني  للتشغيل في المكالمات الصوتية",
-    "logo": "https://telegra.ph/file/c42e24eaebdba59eb680f.jpg",
-    "keywords": [
-    "python3",
-    "telegram",
-    "Fallen",
-    "MusicBot",
-    "telegram-bot",
-    "pyrogram"
-    ],
-    "env": {
-      "API_ID": {
-        "description": " ضـع ايبي ايدي احصل علية من هنا https://my.telegram.org",
-        "value": "28463625",
-        "required": true
-      },
-      "API_HASH": {
-        "description": " ضـع ايبي هاش احصل علية من هنا https://my.telegram.org",
-        "value": "b6f58c1adeb9467ef49af5ed9742688b",
-        "required": true
-      },
-      "BOT_TOKEN": {
-        "description": "ضـع تـوكـن بـوتـك هـنـا",
-        "value": "6650049557:AAEP5dVsXhlNHtQxjHatal8MZbYFVHVLA30",
-        "required": true
-      },
-      "OWNER_ID": {
-        "description": "ضـع ايـديـك هـنـا",
-        "value": "6645909045",
-        "required": true
-      },
-      "SESSION": {
-        "description": "ضـع جلسة البايروجرام ",
-        "value": "AgBVlyh2tUfFZ1oWhXrOeFmV1-_XukfMR7cPkLlnPh9P6TNZxLbcmVRfnrOpxDBQyr7VaVaF6O0PvFERtIvJPhtjxH_QrYXNdorhlz0LgC169nZ-TfUjPQeNtPFMv7nsgfmaf_J2BcuPkvPKGbzxt9gfy22Hv_wogrgd8nSUvXwUkgRuOwAfVXz8-u-sdOCzImcptc91_E_bjyZpt92ZWbbxEAxyXzm_0P_-Q2PQxTc_BOEJoCgkwF0LII23g0t6KOszZCrSIlEkj3E25J8iJ3hg2l-dqRBE0Mej8UOSDojUAUSQwlihyk-xFCKHozpsbbjoFGZRSAFnRHrUeu_oZhw6AAAAAXmRHHMA",
-        "required": true
-      },
-      "SUDO_USERS": {
-        "description": "ضـع ايـدي الـحـسـاب الـمـسـاعـد",
-        "value": "6334520435",
-        "required": true
-      },
-      "SUPPORT_CHAT": {
-        "description": "لا تغيرها ابد ",
-        "value": "https://t.me/G_lRR",
-        "required": false
-      }
-    },
-    "buildpacks": [
-          {
-              "url": "heroku/python"
-          },
-          {
-              "url": "heroku/nodejs"
-          },
-          {
-              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-          }
-      ],
-      "stack": "container"
-  }
